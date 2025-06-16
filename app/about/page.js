@@ -16,16 +16,16 @@ export default async function Page() {
     <div className="grid grid-cols-5 gap-x-24 gap-y-32 text-lg items-center">
       <div className="col-span-3">
         <h1 className="text-4xl mb-10 text-accent-400 font-medium">
-          Welcome to The Wild Oasis
+          Welcome to The Hotel Inc.
         </h1>
 
         <div className="space-y-8">
           <p>
             Where nature&apos;s beauty and comfortable living blend seamlessly.
-            Hidden away in the heart of the Italian Dolomites, this is your
-            paradise away from home. But it&apos;s not just about the luxury
-            cabins. It&apos;s about the experience of reconnecting with nature
-            and enjoying simple pleasures with family.
+            Hidden away in the heart of the Himalayas, this is your paradise
+            away from home. But it&apos;s not just about the luxury cabins.
+            It&apos;s about the experience of reconnecting with nature and
+            enjoying simple pleasures with family.
           </p>
           <p>
             Our {numCabins} luxury cabins provide a cozy base, but the real
@@ -53,7 +53,7 @@ export default async function Page() {
         <Image
           src={img2}
           placeholder="blur"
-          alt="Family that manages The Wild Oasis"
+          alt="Family that manages The Hotel Inc."
         />
       </div>
 
@@ -64,17 +64,17 @@ export default async function Page() {
 
         <div className="space-y-8">
           <p>
-            Since 1962, The Wild Oasis has been a cherished family-run retreat.
+            Since 1962, The Hotel Inc. has been a cherished family-run retreat.
             Started by our grandparents, this haven has been nurtured with love
             and care, passing down through our family as a testament to our
             dedication to creating a warm, welcoming environment.
           </p>
           <p>
-            Over the years, we&aspos;ve maintained the essence of The Wild
-            Oasis, blending the timeless beauty of the mountains with the
+            Over the years, we&aspos;ve maintained the essence of The Hotel
+            Inc., blending the timeless beauty of the mountains with the
             personal touch only a family business can offer. Here, you&aspos;re
             not just a guest; you&aspos;re part of our extended family. So join
-            us at The Wild Oasis soon, where tradition meets tranquility, and
+            us at The Hotel Inc. soon, where tradition meets tranquility, and
             every visit is like coming home.
           </p>
 

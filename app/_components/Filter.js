@@ -1,10 +1,5 @@
 "use client";
 
-/* 
-    form client component
-    
-*/
-
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
 
 function Filter() {

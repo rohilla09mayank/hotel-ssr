@@ -12,7 +12,6 @@ const josefin = Josefin_Sans({
 });
 
 export const metadata = {
-  // title: "Hotel Inc",
   title: { template: "%s | Hotel Inc.", default: "Hotel Inc." },
   description: "Luxury cabin style hotels.",
 };

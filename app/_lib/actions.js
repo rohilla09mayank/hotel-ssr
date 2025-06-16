@@ -31,7 +31,6 @@ export async function updateGuest(formData) {
     .eq("id", session.user.guestId);
 
   if (error) {
-    console.error(error);
     throw new Error("Guest could not be updated");
   }
 
@@ -52,7 +51,6 @@ export async function deleteBooking(bookingId) {
     .eq("id", bookingId);
 
   if (error) {
-    console.error(error);
     throw new Error("Booking could not be deleted");
   }
 
@@ -102,10 +100,10 @@ export async function updateBooking(formData) {
     .single();
 
   if (error) {
-    console.error(error);
     throw new Error("Booking could not be updated");
   }
 
-  revalidatePath("/account/reservations");
+  revalidatePath(`/account/reservations/edit/${formData.get("id")}`);
+  revalidatePath(`/account/reservations/`);
   redirect("/account/reservations");
 }
